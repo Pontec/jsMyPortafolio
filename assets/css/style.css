@@ -417,7 +417,7 @@ textarea.form__input{
 }
 
 @media screen and (max-width: 992px) {
-    .contact__info-list{
+    .contact__content{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -429,6 +429,7 @@ textarea.form__input{
         width: 100%;
     }
 }
+
 
 /* ============= END CONTACT SECTION ============= */
 
