@@ -112,6 +112,34 @@ formInputs.forEach((input) =>{
 /* ============== Dark / Light Theme ============== */
 
 /* ============== Send Email By EmailJS ============== */
+document.getElementById("contact-form").addEventListener("submit", sendEmail);
+
+const serviceID = "service_vqmasik",
+    templateID="template_ughsb3g",
+    templateParams= contactForm,
+    publicKey = "zNug1SPE9-Xld7_1Z";
+
+function sendEmail(e) {
+    e.preventDefault();
+    //syntax: (serviceID, templateID, templateParams,publicKey)
+    emailjs.sendForm(serviceID, templateID, templateParams,publicKey).then(
+        (response) => {
+            console.log(response.status ,response.text);
+            statusBox.textContent = "El mensaje se envio correctamente";
+            setTimeout(() => {
+                statusBox.textContent= "";     
+            }, 7000);
+            contactForm.reset();
+        },
+        (error) => {
+            console.log(error);
+            statusBox.textContent = "El mensaje no se envio";
+        }   
+    );
+}
+
+contactForm.addEventListener("submit", sendEmail);
+
 
 /* ============== scrollRevealJS ============== */
 
