@@ -1,345 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="" type="image/svg+xml" />
-        <!-- ============= Theme ============= -->
-        <script src="./assets/js/theme.js"></script>
 
-        <!-- ============= Remixicon ============= -->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
-        <!-- ============= SwiperJS Stylesheet ============= -->
-        <link rel="stylesheet" href="./assets/css/swiper.css" />
-        <!-- ============= CSS Stylesheet ============= -->
-        <link rel="stylesheet" href="./assets/css/style.css" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="" type="image/svg+xml" />
+    <!-- ============= Theme ============= -->
+    <script src="./assets/js/theme.js"></script>
 
-        <!-- ============= SwiperJS ============= -->
-        <script src="./assets/js/swiper.js"></script>
-        <!-- ============= ScrollRevealJS ============= -->
-        <script src="./assets/js/scrollReveal.js"></script>
-        <!-- ============= EmailJS ============= -->
-        <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        <!-- ============= JavaScript ============= -->
-        <script src="./assets/js/script.js" defer></script>
-        <title>Portfolio Jhonatan Ponce</title>
-    </head>
-    <body>
-        <!-- ============= Header ============= -->
-        <header class="header d-flex align-center">
-            <nav class="header__container container d-flex justify-between align-center">
-                <div class="header__logo">
-                    <a href="./"></a>
-                </div>
-                <div class="group d-flex align-center">
-                    <ul class="header__links d-flex">
-                        <li class="header__link body-md"><a href="#inicio">INICIO</a></li>
-                        <li class="header__link body-md"><a href="#sobre-mi">SOBRE MI</a></li>
-                        <li class="header__link body-md"><a href="#tecnologias">TECNOLOGIAS</a></li>
-                        <li class="header__link body-md"><a href="#portafolio">PORTAFOLIO</a></li>
-                        <li class="header__link body-md"><a href="#contacto">CONTACTO</a></li>
-                    </ul>
-                    <div class="color-theme body-md d-flex align-center justify-center">
-                        <i class="ri-moon-fill"></i>
-                    </div>
-                </div>
-                <div class="header__links-mobile justify-center align-center ">
-                    <ul class="d-flex align-center justify-center">
-                        <li class="header__link-mobile d-flex align-center justify-center">
-                            <a href="#inicio" class="d-flex align-center justify-center active">
-                                <i class="ri-home-5-fill"></i>
-                                <p>INICIO</p>
-                            </a>
-                        </li>
-                        <li class="header__link-mobile d-flex align-center justify-center">
-                            <a href="#sobre-mi" class="d-flex align-center justify-center">
-                                <i class="ri-user-line"></i>
-                                <p>SOBRE MI</p>
-                            </a>
-                        </li>
-                        <li class="header__link-mobile d-flex align-center justify-center">
-                            <a href="#tecnologias" class="d-flex align-center justify-center">
-                                <i class="ri-award-fill"></i>
-                                <p>TECNOLOGIAS</p>
-                            </a>
-                        </li>
-                        <li class="header__link-mobile d-flex align-center justify-center">
-                            <a href="#portafolio" class="d-flex align-center justify-center">
-                                <i class="ri-stack-fill"></i>
-                                <p>PORTAFOLIO</p>
-                            </a>
-                        </li>
-                        <li class="header__link-mobile d-flex align-center justify-center">
-                            <a href="#contacto" class="d-flex align-center justify-center">
-                                <i class="ri-send-plane-fill"></i>
-                                <p>CONTACTO</p>
-                            </a>
-                        </li>
-                    </ul>           
-                </div>
-            </nav>
-        </header>
+    <!-- ============= Remixicon ============= -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- ============= SwiperJS Stylesheet ============= -->
+    <link rel="stylesheet" href="./assets/css/swiper.css" />
+    <!-- ============= CSS Stylesheet ============= -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-        <!-- ============= Home Section ============= -->
-        <section id="inicio" class="home d-flex align-center">
-            <div class="home__container container d-flex align-center">
-                <div class="home__content d-flex align-center justify-between">
-                    <div class="home__left-side d-flex f-column r-gap-2">
-                        <div class="group d-flex f-column">
-                            <h1 class="home__title heading-1">Hola, mi nombre es Jhonatan</h1>
-                            <p class="home__subtitle subtitle-lg">Soy un <span>FullStack developer Junior</span> </p>
-                            <p class="home__text body-es">
-                                apasionado por la tecnología y el aprendizaje continuo,
-                                 en busca de oportunidades para desarrollar mis habilidades y 
-                                 contribuir al mundo del desarrollo web </p>
-                        </div>
-                        <div class="home__social-links d-flex c-gap-1">
-                            <a href="https://www.linkedin.com/in/jhonatan-adrian-ponce-policio/" target="_blank" class="home__social-link subtitle-es">
-                                <i class="ri-linkedin-box-fill"></i>
-                            </a>
-                            <a href="https://github.com/Pontec" target="_blanks" class="home__social-link subtitle-es">
-                                <i class="ri-github-fill"></i>
-                            </a>
-                        </div>
-                        <a href="#contact" class="btn btn-primary d-flex align-center">
-                            Contactame
+    <!-- ============= SwiperJS ============= -->
+    <script src="./assets/js/swiper.js"></script>
+    <!-- ============= ScrollRevealJS ============= -->
+    <script src="./assets/js/scrollReveal.js"></script>
+    <!-- ============= EmailJS ============= -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- ============= JavaScript ============= -->
+    <script src="./assets/js/script.js" defer></script>
+    <title>Jhonatan Ponce</title>
+</head>
+
+<body>
+    <!-- ============= Header ============= -->
+    <header class="header d-flex align-center">
+        <nav class="header__container container d-flex justify-between align-center">
+            <div class="header__logo">
+                <a href="./"></a>
+            </div>
+            <div class="group d-flex align-center">
+                <ul class="header__links d-flex">
+                    <li class="header__link body-md"><a href="#inicio">INICIO</a></li>
+                    <li class="header__link body-md"><a href="#sobre-mi">SOBRE MI</a></li>
+                    <li class="header__link body-md"><a href="#tecnologias">TECNOLOGIAS</a></li>
+                    <li class="header__link body-md"><a href="#portafolio">PORTAFOLIO</a></li>
+                    <li class="header__link body-md"><a href="#contacto">CONTACTO</a></li>
+                </ul>
+                <div class="color-theme body-md d-flex align-center justify-center">
+                    <i class="ri-moon-fill"></i>
+                </div>
+            </div>
+            <div class="header__links-mobile justify-center align-center ">
+                <ul class="d-flex align-center justify-center">
+                    <li class="header__link-mobile d-flex align-center justify-center">
+                        <a href="#inicio" class="d-flex align-center justify-center active">
+                            <i class="ri-home-5-fill"></i>
+                            <p>INICIO</p>
+                        </a>
+                    </li>
+                    <li class="header__link-mobile d-flex align-center justify-center">
+                        <a href="#sobre-mi" class="d-flex align-center justify-center">
+                            <i class="ri-user-line"></i>
+                            <p>SOBRE MI</p>
+                        </a>
+                    </li>
+                    <li class="header__link-mobile d-flex align-center justify-center">
+                        <a href="#tecnologias" class="d-flex align-center justify-center">
+                            <i class="ri-award-fill"></i>
+                            <p>TECNOLOGIAS</p>
+                        </a>
+                    </li>
+                    <li class="header__link-mobile d-flex align-center justify-center">
+                        <a href="#portafolio" class="d-flex align-center justify-center">
+                            <i class="ri-stack-fill"></i>
+                            <p>PORTAFOLIO</p>
+                        </a>
+                    </li>
+                    <li class="header__link-mobile d-flex align-center justify-center">
+                        <a href="#contacto" class="d-flex align-center justify-center">
                             <i class="ri-send-plane-fill"></i>
+                            <p>CONTACTO</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ============= Home Section ============= -->
+    <section id="inicio" class="home d-flex align-center">
+        <div class="home__container container d-flex align-center">
+            <div class="home__content d-flex align-center justify-between">
+                <div class="home__left-side d-flex f-column r-gap-2">
+                    <div class="group d-flex f-column">
+                        <h1 class="home__title heading-1">Hola, mi nombre es Jhonatan</h1>
+                        <p class="home__subtitle subtitle-lg">Soy un <span>FullStack developer Junior</span> </p>
+                        <p class="home__text body-es">
+                            apasionado por la tecnología y el aprendizaje continuo,
+                            en busca de oportunidades para desarrollar mis habilidades y
+                            contribuir al mundo del desarrollo web </p>
+                    </div>
+                    <div class="home__social-links d-flex c-gap-1">
+                        <a href="https://www.linkedin.com/in/jhonatan-adrian-ponce-policio/" target="_blank"
+                            class="home__social-link subtitle-es">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://github.com/Pontec" target="_blanks" class="home__social-link subtitle-es">
+                            <i class="ri-github-fill"></i>
                         </a>
                     </div>
-                    <div class="home__right-side">
-                        <div class="home__image d-flex justify-end">
-                            <img src="./assets/images/Perfil.jpg" alt="profile img">
-                        </div>
+                    <a href="#contacto" class="btn btn-primary d-flex align-center">
+                        Contactame
+                        <i class="ri-send-plane-fill"></i>
+                    </a>
+                </div>
+                <div class="home__right-side">
+                    <div class="home__image d-flex justify-end">
+                        <img src="./assets/images/Perfil.jpg" alt="profile img">
                     </div>
                 </div>
-                <!-- == revisar el minuto 37 para agregar======= -->
             </div>
+            <!-- == revisar el minuto 37 para agregar======= -->
+        </div>
 
 
 
-        </section>
+    </section>
 
-        <!-- ============= About Section ============= -->
-        <section id="about" class="about ">
-            <div class="section__title">
-                <h2 class="heading-2">Sobre Mi</h2>
-            </div>
-            <div class="about__container container  ">
-                <div class="about__content d-flex justify-between align-center gap-2">
-                    <div class="about__left-side d-flex ">
-                        <div class="about__image">
-                            <img src="./assets/images/about-image.jpg" alt="about img">
-                        </div>
+    <!-- ============= About Section ============= -->
+    <section id="sobre-mi" class="about ">
+        <div class="section__title">
+            <h2 class="heading-2">Sobre Mi</h2>
+        </div>
+        <div class="about__container container  ">
+            <div class="about__content d-flex justify-between align-center gap-2">
+                <div class="about__left-side d-flex ">
+                    <div class="about__image">
+                        <img src="./assets/images/about-image.jpg" alt="about img">
                     </div>
-                    <div class="about__right-side d-flex f-column r-gap-2">
-                        <div class="group">
-                            <p class="about__title subtitle-lg">
-                                Yo soy <span>Jhonatan</span>
-                            </p>
-                            <p class="about__text">
-                                un desarrollador Fronted junior en busca de oportunidades para 
-                                expandir mis habilidades y contribuir al mundo del desarrollo web 
-                                y móvil. Apasionado por la programación y la resolución creativa de 
-                                problemas, estoy listo para unirme a proyectos emocionantes y 
-                                aprender en el proceso.
-                            </p>
-                        </div>
-                        <!--
+                </div>
+                <div class="about__right-side d-flex f-column r-gap-2">
+                    <div class="group">
+                        <p class="about__title subtitle-lg">
+                            Yo soy <span>Jhonatan</span>
+                        </p>
+                        <p class="about__text">
+                            un desarrollador FullStack junior en busca de oportunidades para
+                            expandir mis habilidades y contribuir al mundo del desarrollo web
+                            y ademas tengo interes en aprender sobre el desarrollo móvil. Apasionado por la programación
+                            y la resolución creativa de
+                            problemas, estoy listo para unirme a proyectos emocionantes y
+                            aprender en el proceso.
+                        </p>
+                    </div>
+                    <!--
                             <div class="group d-flex align-center gap-1 f-wrap">
                             <div class="about__info d-flex align-center c-gap-1">
                                 <h4 class="heading-4"> </h4>
                             </div>
                             -->
-                            <a href="" download="cv.txt" class="btn btn-primary d-flex align-center c-gap-1">Descargar Cv<i class="ri-file-download-fill"></i></a>
-                    </div>
-                </div>
-                
-            </div>            
-
-        </section>
-
-        <!-- ============= Skills Section ============= -->
-        <section id="skills" class="skills">
-            <div></div>
-        </section>
-
-        <!-- ============= Portfolio Section ============= -->
-        <section id="portafolio" class="portfolio">
-            <div class="section__title">
-                <h2 class="heading-2">PORTAFOLIO</h2>
-            </div>
-            <div class="portfolio__container container">
-                <div class="portfolio__content d-flex f-wrap gap-2 justify-center">
-                    
-                    <div class="project">
-                        <div class="project__image">
-                            <img src="./assets/images/project-01.jpg" alt="E-commerce Wbsite">
-                        </div>
-                        <div class="project__details">
-                            <p class="project__title body-md">E-commerce website</p>
-                            <p class="project__subtitle body-es">website</p>
-                        </div>
-                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
-                    </div>
-
-                    <div class="project">
-                        <div class="project__image">
-                            <img src="./assets/images/project-02.jpg" alt="E-commerce Wbsite">
-                        </div>
-                        <div class="project__details">
-                            <p class="project__title body-md">E-commerce website</p>
-                            <p class="project__subtitle body-es">website</p>
-                        </div>
-                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
-                    </div>
-
-                    <div class="project">
-                        <div class="project__image">
-                            <img src="./assets/images/project-03.jpg" alt="E-commerce Wbsite">
-                        </div>
-                        <div class="project__details">
-                            <p class="project__title body-md">E-commerce website</p>
-                            <p class="project__subtitle body-es">website</p>
-                        </div>
-                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
-                    </div>
-
-                    <div class="project">
-                        <div class="project__image">
-                            <img src="./assets/images/project-04.jpg" alt="E-commerce Wbsite">
-                        </div>
-                        <div class="project__details">
-                            <p class="project__title body-md">E-commerce website</p>
-                            <p class="project__subtitle body-es">website</p>
-                        </div>
-                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
-                    </div>
-
-                    <div class="project">
-                        <div class="project__image">
-                            <img src="./assets/images/project-05.jpg" alt="E-commerce Wbsite">
-                        </div>
-                        <div class="project__details">
-                            <p class="project__title body-md">E-commerce website</p>
-                            <p class="project__subtitle body-es">website</p>
-                        </div>
-                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
-                    </div>
-
-                    <div class="project">
-                        <div class="project__image">
-                            <img src="./assets/images/project-06.jpg" alt="E-commerce Wbsite">
-                        </div>
-                        <div class="project__details">
-                            <p class="project__title body-md">E-commerce website</p>
-                            <p class="project__subtitle body-es">website</p>
-                        </div>
-                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
-                    </div>
-
+                    <a href="" download="cv.txt" class="btn btn-primary d-flex align-center c-gap-1">Descargar Cv<i
+                            class="ri-file-download-fill"></i></a>
                 </div>
             </div>
-        </section>
 
-        <!-- ============= Services Section ============= -->
-        <section id="services" class="services"></section>
+        </div>
 
-        <!-- ============= CTA Section ============= -->
-        <section class="cta"></section>
+    </section>
 
-        <!-- ============= Testimonials Section ============= -->
-        <section class="testimonials"></section>
+    <!-- ============= Skills Section ============= -->
+    <section id="tecnologias" class="skills">
+        <div class="section__title">
+            <h2 class="heading-2 ">TECNOLOGIAS</h2>
+        </div>
+        <div class="skills__container f-column d-flex gap-2 align-center">
+            <article class="skills__card">
+                <h4 class="heading-4 ">Fronted</h4>
+                <ul class="d-flex f-wrap gap-2 ">
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/HTML.svg" alt="html">
+                        <span>HTML</span>
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/css.svg" alt="css">
+                        <span>CSS</span>
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/JavaScript.svg" alt="js">
+                        <span>JavaScript</span>
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/react-.svg" alt="react-js">
+                        <span>React.js</span>
+                    </li>
+                </ul>
+            </article>
+            <article class="skills__card">
+                <h4 class="heading-4">Backend</h4>
+                <ul class="d-flex f-wrap gap-2">
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/SpringBoot.svg" alt="SpringBoot">
+                        <span>Spring Boot</span>
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/mysql.svg" alt="mysql">
+                        <span>MySQL</span>
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/Java.svg" alt="java">
+                        <span>Java</span>
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/postgres.svg" alt="">
+                        <span>ProstgerSQL</span>
+                    </li>
+                </ul>
+            </article>
+            <article class="skills__card">
+                <h4 class="heading-4">Herramientas</h4>
+                <ul class="d-flex f-wrap gap-2">
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/git.svg" alt="">
+                        Git
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/github.svg" alt="">
+                        GitHub
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/visual-studio-code.svg" alt="">
+                        VsCode
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/wordpress.svg" alt="">
+                        WordPress
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="" alt="">
+                        Terminal
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="" alt="">
+                        Postman
+                    </li>
+                </ul>
+            </article>
+            <article class="skills__card">
+                <h4 class="heading-4">Aprediendo</h4>
+                <ul class="d-flex f-wrap gap-2">
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="assets/images/skills/Docker.svg" alt="">
+                        Docker
+                    </li>
+                    <li class="skills__li d-flex f-column">
+                        <img class="img-size" src="" alt="">
+                        Larabel
+                    </li>
+                </ul>
+            </article>
+        </div>
+    </section>
 
-        <!-- ============= Contact Section ============= -->
-        <section id="contacto" class="contact">
-            <div class="section__title">
-                <h2 class="heading-2">Contactame</h2>
-            </div>
-            <div class="contact__container container">
-                <div class="contact__content d-flex justify-between f-wrap gap-2">
-                    <div class="contact__info-list d-flex f-column gap-2">
-                        <div class="contact__info-item">
-                            <a href="" class="d-flex align-center c-gap-2">
-                                <i class="ri-phone-fill heading-3"></i>
-                                <div class="group">
-                                    <p class="contact__title heading-4">LLamame</p>
-                                    <p class="contact__title body-es">+51 931 623 849</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="contact__info-item">
-                            <a href="" class="d-flex align-center c-gap-2">
-                                <i class="ri-mail-line heading-3"></i>
-                                <div class="group">
-                                    <p class="contact__title heading-4">Email</p>
-                                    <p class="contact__title body-es">jhona.pp.29@gmail.com</p>
-                                </div>
-                            </a>
-                        </div>             
+    <!-- ============= Portfolio Section ============= -->
+    <section id="portafolio" class="portfolio">
+        <div class="section__title">
+            <h2 class="heading-2">PORTAFOLIO</h2>
+        </div>
+        <div class="portfolio__container container">
+            <div class="portfolio__content d-flex f-wrap gap-2 justify-center">
+
+                <div class="project">
+                    <div class="project__image">
+                        <img src="./assets/images/project-01.jpg" alt="E-commerce Wbsite">
                     </div>
-                    <form action="" class="form" id="contact-form" >
-                        <div class="group d-flex gap-2 f-column">
-                            <div class="group d-flex gap-2 align-center f-wrap">
-                                <div class="form__group">
-                                    <label for="name" class="form__label body-es ">Nombre</label>
-                                    <input type="text" name="user_name" id="name" class="input-primary form__input" autocomplete="off" required>
-                                </div>   
-                                <div class="form__group">
-                                    <label for="email" class="form__label body-es">Correo</label>
-                                    <input type="text" name="user_email" id="email" class="input-primary form__input" autocomplete="off" required>
-                                </div>
+                    <div class="project__details">
+                        <p class="project__title body-md">E-commerce website</p>
+                        <p class="project__subtitle body-es">website</p>
+                    </div>
+                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
+                </div>
+
+                <div class="project">
+                    <div class="project__image">
+                        <img src="./assets/images/project-02.jpg" alt="E-commerce Wbsite">
+                    </div>
+                    <div class="project__details">
+                        <p class="project__title body-md">E-commerce website</p>
+                        <p class="project__subtitle body-es">website</p>
+                    </div>
+                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
+                </div>
+
+                <div class="project">
+                    <div class="project__image">
+                        <img src="./assets/images/project-03.jpg" alt="E-commerce Wbsite">
+                    </div>
+                    <div class="project__details">
+                        <p class="project__title body-md">E-commerce website</p>
+                        <p class="project__subtitle body-es">website</p>
+                    </div>
+                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
+                </div>
+
+                <div class="project">
+                    <div class="project__image">
+                        <img src="./assets/images/project-04.jpg" alt="E-commerce Wbsite">
+                    </div>
+                    <div class="project__details">
+                        <p class="project__title body-md">E-commerce website</p>
+                        <p class="project__subtitle body-es">website</p>
+                    </div>
+                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
+                </div>
+
+                <div class="project">
+                    <div class="project__image">
+                        <img src="./assets/images/project-05.jpg" alt="E-commerce Wbsite">
+                    </div>
+                    <div class="project__details">
+                        <p class="project__title body-md">E-commerce website</p>
+                        <p class="project__subtitle body-es">website</p>
+                    </div>
+                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
+                </div>
+
+                <div class="project">
+                    <div class="project__image">
+                        <img src="./assets/images/project-06.jpg" alt="E-commerce Wbsite">
+                    </div>
+                    <div class="project__details">
+                        <p class="project__title body-md">E-commerce website</p>
+                        <p class="project__subtitle body-es">website</p>
+                    </div>
+                    <a href="#" class="project__link"><i class="ri-share-box-fill"></i> </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============= Services Section ============= -->
+    <section id="services" class="services"></section>
+
+    <!-- ============= CTA Section ============= -->
+    <section class="cta"></section>
+
+    <!-- ============= Testimonials Section ============= -->
+    <section class="testimonials"></section>
+
+    <!-- ============= Contact Section ============= -->
+    <section id="contacto" class="contact">
+        <div class="section__title">
+            <h2 class="heading-2">Contactame</h2>
+        </div>
+        <div class="contact__container container">
+            <div class="contact__content d-flex justify-between f-wrap gap-2">
+                <div class="contact__info-list d-flex f-column gap-2">
+                    <div class="contact__info-item">
+                        <a href="" class="d-flex align-center c-gap-2">
+                            <i class="ri-phone-fill heading-3"></i>
+                            <div class="group">
+                                <p class="contact__title heading-4">LLamame</p>
+                                <p class="contact__title body-es">+51 931 623 849</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="contact__info-item">
+                        <a href="" class="d-flex align-center c-gap-2">
+                            <i class="ri-mail-line heading-3"></i>
+                            <div class="group">
+                                <p class="contact__title heading-4">Email</p>
+                                <p class="contact__title body-es">jhona.pp.29@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <form action="" class="form" id="contact-form">
+                    <div class="group d-flex gap-2 f-column">
+                        <div class="group d-flex gap-2 align-center f-wrap">
+                            <div class="form__group">
+                                <label for="name" class="form__label body-es ">Nombre</label>
+                                <input type="text" name="user_name" id="name" class="input-primary form__input"
+                                    autocomplete="off" required>
                             </div>
                             <div class="form__group">
-                                <label for="subject" class="form__label body-es">Asunto</label>
-                                <input type="text" name="subject" id="subject" class="input-primary form__input" autocomplete="off" required>
+                                <label for="email" class="form__label body-es">Correo</label>
+                                <input type="text" name="user_email" id="email" class="input-primary form__input"
+                                    autocomplete="off" required>
                             </div>
-                            <div class="form__group">
-                                <label for="message" class="form__label body-es">Mensaje</label>
-                                <textarea type="text" name="message" id="message" class="input-primary form__input" autocomplete="off" required></textarea>
-                            </div>
-                            <div class="form__status-box">
-                                <p class="body-es"></p>
-                            </div>
-                            <button onclick="sendMail();" type="submit" name="submit" class="btn btn-primary d-flex align-center c-gap-1">contactame</button>
-                                                                                      
-                        </div>                        
-                    </form>
+                        </div>
+                        <div class="form__group">
+                            <label for="subject" class="form__label body-es">Asunto</label>
+                            <input type="text" name="subject" id="subject" class="input-primary form__input"
+                                autocomplete="off" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label body-es">Mensaje</label>
+                            <textarea type="text" name="message" id="message" class="input-primary form__input"
+                                autocomplete="off" required></textarea>
+                        </div>
+                        <div class="form__status-box">
+                            <p class="body-es"></p>
+                        </div>
+                        <button onclick="sendMail();" type="submit" name="submit"
+                            class="btn btn-primary d-flex align-center c-gap-1">contactame</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ============= Footer ============= -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content d-flex justify-between">
+                <div class="group">
+                    <h3 class="footer__title heading-3">Jhonatan</h3>
+                    <p class="footer__subtitle body-sm">Fronted developer</p>
+                </div>
+                <div class="footer__social-links d-flex c-gap-1">
+                    <a href="#" class="footer__social-link subtitle-es">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="#" class="footer__social-link subtitle-es">
+                        <i class="ri-github-fill"></i>
+                    </a>
                 </div>
             </div>
+        </div>
+        <div class="footer__copyRight">
+            <p class="body-sm">Desarrollado por Jhonatan Ponce</p>
+        </div>
 
-        </section>
+    </footer>
 
-        <!-- ============= Footer ============= -->
-        <footer class="footer">
-            <div class="footer__container container">
-                <div class="footer__content d-flex justify-between">
-                    <div class="group">
-                        <h3 class="footer__title heading-3">Jhonatan</h3>
-                        <p class="footer__subtitle body-sm">Fronted developer</p>
-                    </div>
-                    <div class="footer__social-links d-flex c-gap-1">
-                        <a href="#" class="footer__social-link subtitle-es">
-                            <i class="ri-linkedin-box-fill"></i>
-                        </a>
-                        <a href="#" class="footer__social-link subtitle-es">
-                            <i class="ri-github-fill"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__copyRight">
-                <p class="body-sm">Desarrollado por Jhonatan Ponce</p>
-            </div>
-
-        </footer>
-
-        <!-- ============= Scroll Up ============= -->
-        <button type="button" class="btn btn-primary scroll-up d-flex align-center">
-            <i class="ri-arrow-up-line"></i>
-        </button>
-        <!--
+    <!-- ============= Scroll Up ============= -->
+    <button type="button" class="btn btn-primary scroll-up d-flex align-center">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!--
             PRUEBA DE VARIABLES    
         <button class="btn btn-primary" >click aqui</button>
         <input type="text" class="input-primary" /> -->
-    </body>
+</body>
+
 </html>

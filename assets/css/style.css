@@ -250,6 +250,33 @@ body{
 /* ============= END ABOUT SECTION ============= */
 
 /* ============= START SKILLS SECTION ============= */
+.skills{
+    position: relative;
+    min-height: var(--full-view-height);
+    padding-block: var(--header-height);
+
+    
+}
+
+.skills__container{
+    padding-top: calc(var(--padding-3));
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.skills__card{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: var(--border-10);
+    padding: var(--padding-3);
+}
+
+.skills__li{
+    align-items: center;
+    gap: 0.7rem;
+}
+/* ============= END SKILLS SECTION ============= */
 
 /* Skills & Tools */
 

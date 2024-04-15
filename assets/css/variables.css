@@ -78,7 +78,7 @@
 }
 
 body::-webkit-scrollbar {
-    width:14px;
+    width: 14px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -131,6 +131,7 @@ li {
         width: 750px;
     }
 }
+
 @media (min-width: 992px) {
     .container {
         width: 970px;
@@ -222,7 +223,7 @@ li {
     transition: background var(--default-duration) ease;
 }
 
-.btn-primary:hover {    
+.btn-primary:hover {
     background-color: var(--blue-75);
 }
 
@@ -332,4 +333,12 @@ li {
     font-style: normal;
     font-weight: var(--font-medium);
     line-height: normal;
+}
+
+/*=========OTRO============*/
+
+.img-size {
+    width: 4rem;
+    height: 4rem;
+
 }
