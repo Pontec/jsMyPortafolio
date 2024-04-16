@@ -262,6 +262,7 @@ body{
     padding-top: calc(var(--padding-3));
     margin-left: auto;
     margin-right: auto;
+    flex-wrap: wrap;
 
 }
 
@@ -269,12 +270,20 @@ body{
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: var(--border-10);
-    padding: var(--padding-3);
+    padding: var(--padding-1);
+    width: -webkit-fill-available;
+    max-width: 550px;
+}
+
+.skills__ul{
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skills__li{
     align-items: center;
     gap: 0.7rem;
+    
 }
 /* ============= END SKILLS SECTION ============= */
 
