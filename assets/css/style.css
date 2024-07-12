@@ -157,7 +157,7 @@ body{
     color: var(--accent-color)
 }
 .home__text {
-    color: var(--text-alt-1);
+    color: var(body-es);
 }
 .home__social-link{
     color: var(--accent-color);
@@ -213,7 +213,7 @@ body{
 .about{
     position: relative;
     padding-block: var(--header-height);
-    min-height: var(--full-view-height);
+    /*min-height: var(--full-view-height);*/
 }
 .about__container{
     padding-top: calc(var(--padding-3)*2);
@@ -252,7 +252,7 @@ body{
 /* ============= START SKILLS SECTION ============= */
 .skills{
     position: relative;
-    min-height: var(--full-view-height);
+    /*min-height: var(--full-view-height);*/
     padding-block: var(--header-height);
 
     
@@ -294,25 +294,12 @@ body{
 /* ============= END SKILLS SECTION ============= */
 
 /* ============= START PORTFOLIO SECTION ============= */
-.portfolio{
-    position: relative;
-    min-height: var(--full-view-height);
-    padding-block: var(--header-height);
-}
 
-.portfolio__container{
-    padding-top: calc(var(--padding-3)*2);
-}
-.portfolio__content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 .project {
     position: relative;
     flex-basis: 340px;
     flex-grow: 1;
-    height: 260px;
+    height: 560px;
     border-radius: var(--border-10);
     overflow: hidden;
     box-shadow: var(--shadow-black-20);
@@ -326,12 +313,16 @@ body{
     opacity: 0;
     transition: opacity var(--default-duration)ease;
 }
-
-.project__image {
-    width: 100%;
-    height: 100%;
+.portfolio{
+    position: relative;
+    /*min-height: var(--full-view-height);
+    padding-block: var(--header-height);*/
 }
 
+
+
+/*realiza el movimiento*/
+/*
 .project__details {
     position: absolute;
     padding: var(--padding-1);
@@ -341,10 +332,7 @@ body{
     transition: all var(--default-duration) ease;
 }
 
-.project__title{
-    text-transform: capitalize;
-    color: var(--white-100);
-}
+
 .project__subtitle{
     text-transform: capitalize;
     color: var(--gray-80);
@@ -373,24 +361,35 @@ body{
 .proyect:hover .project__link{
     opacity: 1;
 }
-
+*/
 .project:hover .project__details{
     opacity: 1;
     transform: translateY(0px);
 }
+
+/**************Nuevos Cambio**********/
+
+.project__image {
+    width: 100%;
+    height: 100%;
+}
+.portfolio__container{
+    padding-top: calc(var(--padding-3)*2);
+    display: relative;
+}
+.portfolio__content{
+    
+    
+}
+
+
+
+
+
+
+
+
 /* ============= END PORTFOLIO SECTION ============= */
-
-/* ============= START SERVICES SECTION ============= */
-
-/* ============= END SERVICES SECTION ============= */
-
-/* ============= START CTA SECTION ============= */
-
-/* ============= END CTA SECTION ============= */
-
-/* ============= START TESTIMONIALS SECTION ============= */
-
-/* ============= END TESTIMONIALS SECTION ============= */
 
 /* ============= START CONTACT SECTION ============= */
 
