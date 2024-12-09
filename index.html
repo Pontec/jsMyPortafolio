@@ -255,67 +255,150 @@
         <div class="section__title">
             <h2 class="heading-2">PROYECTOS</h2>
         </div>
-
-        <article class="container portfolio__container">
-            <div class="contact__content d-flex justify-between f-wrap gap-2">
-                <div class="project__image">
-                    <img src="./assets/images/project-utp.png" alt="sistema-ventas">
-                </div>
-                <div>
-                    <h3 class="heading-4">Clone Universidad tecnologica del Peru</h3>
-                    <div class="">
-                        <ul class="body-md">Tecnologias: Html, Css, Js, Php</ul>
-                        <p class="">Pagina web replicada utilizando tecnologias de desarrollo web</p>
-                        <div>
-                            <a href="https://github.com/Pontec" target="_blanks" class="home__social-link heading-3">
-                                <i class="ri-github-fill ">Codigo</i>
+        <div class="portfolio__filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="backend">Backend</button>
+            <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            <button class="filter-btn" data-filter="escritorio">Escritorio</button>
+        </div>
+        <div class="container portfolio__container">
+            <article class="project" data-category="fullstack">
+                <div class="project__image-wrapper">
+                    <img class="project__image" src="./assets/images/project-restaurante.png" alt="UTP Clone">
+                    <div class="project__overlay">
+                        <div class="project__links">
+                            <a href="https://demo-link.com" target="_blank" class="project__link">
+                                <i class="ri-eye-line"></i> Demo
+                            </a>
+                            <a href="https://github.com/..." target="_blank" class="project__link">
+                                <i class="ri-github-line"></i> Código
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </article>
-
-        <article class="container portfolio__container">
-            <div class="contact__content d-flex justify-between f-wrap gap-2">
-                <div class="project__image">
-                    <img src="./assets/images/project-01.png" alt="sistema-ventas">
+                <div class="project__content">
+                    <h3 class="project__title body-md">Sistema de pedido restaurante</h3>
+                    <p class="project__description ">
+                        Sistema de ventas de escritorio utilizando la libreria de java, Swing
+                    </p>
+                    <div class="project__tech-stack">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Spring Boot</span>
+                        <span class="tech-badge">Tailwind</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">MySQL</span>
+                    </div>
                 </div>
-                <div>
-                    <h3 class="heading-4">Sistema de Ventas Java-Swing</h3>
-                    <div class="">
-                        <ul class="body-md">Tecnologias: Java MySQL</ul>
-                        <p class="">Sistema de ventas de escritorio utilizando la libreria de java, Swing</p>
-                        <div>
-                            <a href="https://github.com/Pontec" target="_blanks" class="home__social-link heading-3">
-                                <i class="ri-github-fill ">Codigo</i>
+            </article>
+            <article class="project" data-category="escritorio">
+                <div class="project__image-wrapper">
+                    <img class="project__image" src="./assets/images/project-pasajes.png" alt="UTP Clone">
+                    <div class="project__overlay">
+                        <div class="project__links">
+                            <a href="https://demo-link.com" target="_blank" class="project__link">
+                                <i class="ri-eye-line"></i> Demo
+                            </a>
+                            <a href="https://github.com/..." target="_blank" class="project__link">
+                                <i class="ri-github-line"></i> Código
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </article>
-
-        <article class="container portfolio__container">
-            <div class="contact__content d-flex justify-between f-wrap gap-2">
-                <div class="project__image">
-                    <img src="./assets/images/project-02.png" alt="Pagina web Wordpress">
+                <div class="project__content">
+                    <h3 class="project__title body-md">Sistema de Ventas Pasaje</h3>
+                    <p class="project__description ">
+                        Sistema de venta de pasaje escritorio combinando java y spring boot
+                    </p>
+                    <div class="project__tech-stack">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">SpringBoot</span>
+                        <span class="tech-badge">JavaFX</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
                 </div>
-                <div>
-                    <h3 class="heading-4">Mi paquina web</h3>
-                    <div class="">
-                        <ul class="body-md">Tecnologias: <i class="ri-wordpress-fill"></i></ul>
-                        <p class="">Una pargina creada para compartir contenido relacionado a tecnologia que esta desarrollada utilizando Wordpress</p>
-                        <div>
-                            <a href="https://www.pontecweb.com/" class="heading-4 home__social-link">
-                                <i class="ri-link">Preview</i>
+            </article>
+            <article class="project" data-category="frontend">
+                <div class="project__image-wrapper">
+                    <img class="project__image" src="./assets/images/project-utp.png" alt="UTP Clone">
+                    <div class="project__overlay">
+                        <div class="project__links">
+                            <a href="https://demo-link.com" target="_blank" class="project__link">
+                                <i class="ri-eye-line"></i> Demo
+                            </a>
+                            <a href="https://github.com/Pontec" target="_blank" class="project__link">
+                                <i class="ri-github-line"></i> Código
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </article>
-
+                <div class="project__content">
+                    <h3 class="project__title body-md">Clone Universidad Tecnológica</h3>
+                    <p class="project__description">
+                        Clon funcional del sitio web de la UTP, implementando diseño responsive y optimización SEO.
+                    </p>
+                    <div class="project__tech-stack">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">PHP</span>
+                    </div>
+                </div>
+            </article>
+            <article class="project" data-category="escritorio">
+                <div class="project__image-wrapper">
+                    <img class="project__image" src="./assets/images/project-01.png" alt="UTP Clone">
+                    <div class="project__overlay">
+                        <div class="project__links">
+                            <a href="https://demo-link.com" target="_blank" class="project__link">
+                                <i class="ri-eye-line"></i> Demo
+                            </a>
+                            <a href="https://www.pontecweb.com/" target="_blank" class="project__link">
+                                <i class="ri-github-line"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__content">
+                    <h4 class="project__title body-md">Sistema de Ventas de PCs</h3>
+                    <p class="project__description ">
+                        Sistema de ventas de escritorio utilizando la libreria Swing
+                    </p>
+                    <div class="project__tech-stack">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">MySQL</span>
+                    </div>
+                </div>
+            </article>
+            <article class="project" data-category="frontend">
+                <div class="project__image-wrapper">
+                    <img class="project__image" src="./assets/images/project-02.png" alt="UTP Clone">
+                    <div class="project__overlay">
+                        <div class="project__links">
+                            <a href="https://demo-link.com" target="_blank" class="project__link">
+                                <i class="ri-eye-line"></i> Demo
+                            </a>
+                            <a href="https://www.pontecweb.com/" target="_blank" class="project__link">
+                                <i class="ri-github-line"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__content">
+                    <h3 class="project__title body-md">Mi paquina web</h3>
+                    <p class="project__description ">
+                        Una pagina creada para compartir contenido relacionado a tecnologia que esta desarrollada utilizando Wordpress
+                    </p>
+                    <div class="project__tech-stack">
+                        <span class="tech-badge">WordPress</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">PHP</span>
+                    </div>
+                </div>
+            </article>            
+        </div>              
     </section>
 
     <!-- ============= Contact Section ============= -->
