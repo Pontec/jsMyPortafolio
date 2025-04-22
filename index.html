@@ -96,7 +96,8 @@
                             contribuir al mundo del desarrollo web </p>
                     </div>
                     <div class="home__social-links d-flex c-gap-1">
-                        <a href="https://www.linkedin.com/in/jhonatan-adrian-ponce-policio/" target="_blank" class="home__social-link subtitle-es">
+                        <a href="https://www.linkedin.com/in/jhonatan-adrian-ponce-policio/" target="_blank"
+                            class="home__social-link subtitle-es">
                             <i class="ri-linkedin-box-fill"></i>
                         </a>
                         <a href="https://github.com/Pontec" target="_blanks" class="home__social-link subtitle-es">
@@ -153,7 +154,9 @@
                                 <h4 class="heading-4"> </h4>
                             </div>
                             -->
-                    <a href="https://docs.google.com/document/d/1t6K_tCGxOu9lg05O-ISbgepD6tFJOc8DVwI2tx9lphU/edit?usp=sharing" class="btn btn-primary d-flex align-center c-gap-1">Descargar Cv<i class="ri-file-download-fill"></i></a>
+                    <a href="https://docs.google.com/document/d/1t6K_tCGxOu9lg05O-ISbgepD6tFJOc8DVwI2tx9lphU/edit?usp=sharing"
+                        class="btn btn-primary d-flex align-center c-gap-1">Descargar Cv<i
+                            class="ri-file-download-fill"></i></a>
                 </div>
             </div>
 
@@ -263,6 +266,35 @@
             <button class="filter-btn" data-filter="escritorio">Escritorio</button>
         </div>
         <div class="container portfolio__container">
+            
+            <article class="project" data-category="fullstack">
+                <div class="project__image-wrapper">
+                    <img class="project__image" src="./assets/images/project-prepauni.png" alt="PrepaUni Website">
+                    <div class="project__overlay">
+                        <div class="project__links">
+                            <a href="https://www.prepauni.com" target="_blank" class="project__link">
+                                <i class="ri-eye-line"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__content">
+                    <h3 class="project__title body-md">PrepaUni</h3>
+                    <p class="project__description">
+                        Plataforma educativa para preparación universitaria con material de estudio y recursos
+                        académicos.
+                    </p>
+                    <div class="project__tech-stack">
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">React Js</span>
+                        <span class="tech-badge">Tailwind</span>
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Spring Boot</span>
+                        <span class="tech-badge">MySQL</span>
+                    </div>
+                </div>
+            </article>
+
             <article class="project" data-category="fullstack">
                 <div class="project__image-wrapper">
                     <img class="project__image" src="./assets/images/project-restaurante.png" alt="UTP Clone">
@@ -362,13 +394,13 @@
                 </div>
                 <div class="project__content">
                     <h4 class="project__title body-md">Sistema de Ventas de PCs</h3>
-                    <p class="project__description ">
-                        Sistema de ventas de escritorio utilizando la libreria Swing
-                    </p>
-                    <div class="project__tech-stack">
-                        <span class="tech-badge">Java</span>
-                        <span class="tech-badge">MySQL</span>
-                    </div>
+                        <p class="project__description ">
+                            Sistema de ventas de escritorio utilizando la libreria Swing
+                        </p>
+                        <div class="project__tech-stack">
+                            <span class="tech-badge">Java</span>
+                            <span class="tech-badge">MySQL</span>
+                        </div>
                 </div>
             </article>
             <article class="project" data-category="frontend">
@@ -388,7 +420,8 @@
                 <div class="project__content">
                     <h3 class="project__title body-md">Mi paquina web</h3>
                     <p class="project__description ">
-                        Una pagina creada para compartir contenido relacionado a tecnologia que esta desarrollada utilizando Wordpress
+                        Una pagina creada para compartir contenido relacionado a tecnologia que esta desarrollada
+                        utilizando Wordpress
                     </p>
                     <div class="project__tech-stack">
                         <span class="tech-badge">WordPress</span>
@@ -397,8 +430,33 @@
                         <span class="tech-badge">PHP</span>
                     </div>
                 </div>
-            </article>            
-        </div>              
+            </article>
+
+            <article class="project" data-category="backend">
+                <div class="project__image-wrapper">
+                    <img class="project__image" src="./assets/images/project-backend-01.png" alt="UTP Clone">
+                    <div class="project__overlay">
+                        <div class="project__links">
+                            <a href="https://github.com/..." target="_blank" class="project__link">
+                                <i class="ri-github-line"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project__content">
+                    <h3 class="project__title body-md">Sistema venta de calzado</h3>
+                    <p class="project__description ">
+                        Sistema de ventas de un calzado utilizando sprig boot
+                    </p>
+                    <div class="project__tech-stack">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Spring Boot</span>
+                        <span class="tech-badge">swagguer</span>
+                        <span class="tech-badge">PostgreSQL</span>
+                    </div>
+                </div>
+            </article>
+        </div>
     </section>
 
     <!-- ============= Contact Section ============= -->
@@ -433,25 +491,30 @@
                         <div class="group d-flex gap-2 align-center f-wrap">
                             <div class="form__group">
                                 <label for="name" class="form__label body-es ">Nombre</label>
-                                <input type="text" name="user_name" id="name" class="input-primary form__input" autocomplete="off" required>
+                                <input type="text" name="user_name" id="name" class="input-primary form__input"
+                                    autocomplete="off" required>
                             </div>
                             <div class="form__group">
                                 <label for="email" class="form__label body-es">Correo</label>
-                                <input type="text" name="user_email" id="email" class="input-primary form__input" autocomplete="off" required>
+                                <input type="text" name="user_email" id="email" class="input-primary form__input"
+                                    autocomplete="off" required>
                             </div>
                         </div>
                         <div class="form__group">
                             <label for="subject" class="form__label body-es">Asunto</label>
-                            <input type="text" name="subject" id="subject" class="input-primary form__input" autocomplete="off" required>
+                            <input type="text" name="subject" id="subject" class="input-primary form__input"
+                                autocomplete="off" required>
                         </div>
                         <div class="form__group">
                             <label for="message" class="form__label body-es">Mensaje</label>
-                            <textarea type="text" name="message" id="message" class="input-primary form__input" autocomplete="off" required></textarea>
+                            <textarea type="text" name="message" id="message" class="input-primary form__input"
+                                autocomplete="off" required></textarea>
                         </div>
                         <div class="form__status-box">
                             <p class="body-es"></p>
                         </div>
-                        <button onclick="sendMail();" type="submit" name="submit" class="btn btn-primary d-flex align-center c-gap-1">contactame</button>
+                        <button onclick="sendMail();" type="submit" name="submit"
+                            class="btn btn-primary d-flex align-center c-gap-1">contactame</button>
 
                     </div>
                 </form>
