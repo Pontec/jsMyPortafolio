@@ -15,8 +15,7 @@
     <!-- ============= CSS Stylesheet ============= -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!-- ============= SwiperJS ============= -->
-    <script src="./assets/js/swiper.js"></script>
+
     <!-- ============= ScrollRevealJS ============= -->
     <script src="./assets/js/scrollReveal.js"></script>
     <!-- ============= EmailJS ============= -->
@@ -91,12 +90,11 @@
                         <h1 class="home__title heading-1">Hola, mi nombre es Jhonatan</h1>
                         <p class="home__subtitle subtitle-lg">Soy un <span>FullStack developer</span> </p>
                         <p class="home__text body-es">
-                            + 1 años de experiencia como desarrollado FullStack,
-                            desarrollando aplicaciones web modernas y escalables.</p>
+                            + 2 años de experiencia como desarrollado FullStack,
+                            desarrollando aplicaciones web y móviles escalables.</p>
                     </div>
                     <div class="home__social-links d-flex c-gap-1">
-                        <a href="https://www.linkedin.com/in/jhonatan-adrian-ponce-policio/" target="_blank"
-                            class="home__social-link subtitle-es">
+                        <a href="https://www.linkedin.com/in/jhonatan-adrian-ponce-policio/" target="_blank" class="home__social-link subtitle-es">
                             <i class="ri-linkedin-box-fill"></i>
                         </a>
                         <a href="https://github.com/Pontec" target="_blanks" class="home__social-link subtitle-es">
@@ -110,57 +108,55 @@
                 </div>
                 <div class="home__right-side">
                     <div class="home__image d-flex justify-end">
-                        <img src="./assets/images/Perfil.jpg" alt="profile img">
+                        <img src="./assets/images/Perfil.jpg" alt="perfil">
                     </div>
                 </div>
             </div>
-            <!-- == revisar el minuto 37 para agregar======= -->
         </div>
-
-
-
     </section>
 
-    <!-- ============= About Section ============= -->
-    <section id="sobre-mi" class="about ">
+    <!-- ============= Experiencia Laboral ============= -->
+    <section id="experiencia-laboral" class="experiencia-laboral">
         <div class="section__title">
-            <h2 class="heading-2">Sobre Mi</h2>
+            <h2 class="heading-2"><span class="icono">💼</span> Experiencia laboral</h2>
         </div>
-        <div class="about__container container  ">
-            <div class="about__content d-flex justify-between align-center gap-2">
-                <div class="about__left-side d-flex ">
-                    <div class="about__image">
-                        <img src="./assets/images/sobre-mi.jpg" alt="about img">
-                    </div>
-                </div>
-                <div class="about__right-side d-flex f-column r-gap-2">
-                    <div class="group">
-                        <p class="about__title subtitle-lg">
-                            Yo soy <span>Jhonatan</span>
-                        </p>
-                        <p class="about__text">
-                            un desarrollador FullStack junior en busca de oportunidades para
-                            expandir mis habilidades y contribuir al mundo del desarrollo web
-                            y ademas tengo interes en aprender sobre el desarrollo móvil. Apasionado por la programación
-                            y la resolución creativa de
-                            problemas, estoy listo para unirme a proyectos emocionantes y
-                            aprender en el proceso.
-                        </p>
-                    </div>
-                    <!--
-                            <div class="group d-flex align-center gap-1 f-wrap">
-                            <div class="about__info d-flex align-center c-gap-1">
-                                <h4 class="heading-4"> </h4>
-                            </div>
-                            -->
-                    <a href="https://docs.google.com/document/d/1t6K_tCGxOu9lg05O-ISbgepD6tFJOc8DVwI2tx9lphU/edit?usp=sharing"
-                        class="btn btn-primary d-flex align-center c-gap-1">Descargar Cv<i
-                            class="ri-file-download-fill"></i></a>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3 class="titulo-puesto">Full Stack Developer</h3>
+                    <span class="empresa">StartUp EdTech PrepaUni</span>
+                    <span class="fecha">01/2024 - Actualidad</span>
+                    <p>
+                        Desarrollo de app móvil educativa con integración de IA y chat universitario. Backend seguro con Java/Spring Boot y despliegue en la nube.<br>
+                        <strong>Tecnologías:</strong> Java, Spring Boot, ReactJS, GCP, Docker, MySQL, React Native.
+                    </p>
                 </div>
             </div>
-
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3 class="titulo-puesto">Backend Developer</h3>
+                    <span class="empresa">Municipalidad de Nuevo Chimbote</span>
+                    <span class="fecha">11/2024 – 05/2025</span>
+                    <p>
+                        Sistema web para clínica veterinaria municipal. Seguridad con Spring Security/JWT y trabajo en equipo ágil.<br>
+                        <strong>Tecnologías:</strong> Java, Spring Boot, MySQL, JWT, Git.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3 class="titulo-puesto">Especialista en Soluciones Tecnológicas</h3>
+                    <span class="empresa">Net Computer E.I.R.L</span>
+                    <span class="fecha">10/2019 – 07/2023</span>
+                    <p>
+                        Soporte técnico y desarrollo de sistemas internos para optimizar ventas y operaciones.
+                    </p>
+                </div>
+            </div>
         </div>
-
     </section>
 
     <!-- ============= Skills Section ============= -->
@@ -240,12 +236,12 @@
                 <h4 class="heading-4">Aprediendo</h4>
                 <ul class="skills__ul d-flex gap-2">
                     <li class="skills__li d-flex f-column">
-                        <img class="img-size" src="assets/images/skills/Docker.svg" alt="">
+                        <img class="img-size" src="assets/images/skills/Docker.svg" alt="Docker">
                         Docker
                     </li>
                     <li class="skills__li d-flex f-column">
-                        <img class="img-size" src="assets/images/skills/laravel.svg" alt="">
-                        Laravel
+                        <img class="img-size" src="assets/images/skills/Angular.svg" alt="angular">
+                        Angular
                     </li>
                 </ul>
             </article>
@@ -450,6 +446,44 @@
         </div>
     </section>
 
+    <!-- ============= About Section ============= -->
+    <section id="sobre-mi" class="about ">
+        <div class="section__title">
+            <h2 class="heading-2">Sobre Mi</h2>
+        </div>
+        <div class="about__container container  ">
+            <div class="about__content d-flex justify-between align-center gap-2">
+                <div class="about__left-side d-flex ">
+                    <div class="about__image">
+                        <img src="./assets/images/sobre-mi.jpg" alt="about img">
+                    </div>
+                </div>
+                <div class="about__right-side d-flex f-column r-gap-2">
+                    <div class="group">
+                        <p class="about__title subtitle-lg">
+                            Yo soy <span>Jhonatan</span>
+                        </p>
+                        <p class="about__text">
+                            un desarrollador FullStack junior en busca de oportunidades para
+                            expandir mis habilidades y contribuir al mundo del desarrollo web
+                            y ademas tengo interes en aprender sobre el desarrollo móvil. Apasionado por la programación
+                            y la resolución creativa de
+                            problemas, estoy listo para unirme a proyectos emocionantes y
+                            aprender en el proceso.
+                        </p>
+                    </div>
+                    <!--
+                                            <div class="group d-flex align-center gap-1 f-wrap">
+                                            <div class="about__info d-flex align-center c-gap-1">
+                                                <h4 class="heading-4"> </h4>
+                                            </div>
+                                            -->
+                    <a href="https://docs.google.com/document/d/1t6K_tCGxOu9lg05O-ISbgepD6tFJOc8DVwI2tx9lphU/edit?usp=sharing" class="btn btn-primary d-flex align-center c-gap-1">Descargar Cv<i class="ri-file-download-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ============= Contact Section ============= -->
     <section id="contacto" class="contact">
         <div class="section__title">
@@ -462,8 +496,8 @@
                         <a href="" class="d-flex align-center c-gap-2">
                             <i class="ri-phone-fill heading-3"></i>
                             <div class="group">
-                                <p class="contact__title heading-4">LLamame</p>
-                                <p class="contact__title body-es">+51 931 623 849</p>
+                                <p class="contact__subtitle heading-4">LLamame</p>
+                                <p class="contact__subtitle body-es">+51 927 693 346</p>
                             </div>
                         </a>
                     </div>
@@ -471,8 +505,8 @@
                         <a href="" class="d-flex align-center c-gap-2">
                             <i class="ri-mail-line heading-3"></i>
                             <div class="group">
-                                <p class="contact__title heading-4">Email</p>
-                                <p class="contact__title body-es">jhona.pp.29@gmail.com</p>
+                                <p class="contact__subtitle heading-4">Email</p>
+                                <p class="contact__subtitle body-es">jhona.pp.29@gmail.com</p>
                             </div>
                         </a>
                     </div>
@@ -482,30 +516,25 @@
                         <div class="group d-flex gap-2 align-center f-wrap">
                             <div class="form__group">
                                 <label for="name" class="form__label body-es ">Nombre</label>
-                                <input type="text" name="user_name" id="name" class="input-primary form__input"
-                                    autocomplete="off" required>
+                                <input type="text" name="user_name" id="name" class="input-primary form__input" autocomplete="off" required>
                             </div>
                             <div class="form__group">
                                 <label for="email" class="form__label body-es">Correo</label>
-                                <input type="text" name="user_email" id="email" class="input-primary form__input"
-                                    autocomplete="off" required>
+                                <input type="text" name="user_email" id="email" class="input-primary form__input" autocomplete="off" required>
                             </div>
                         </div>
                         <div class="form__group">
                             <label for="subject" class="form__label body-es">Asunto</label>
-                            <input type="text" name="subject" id="subject" class="input-primary form__input"
-                                autocomplete="off" required>
+                            <input type="text" name="subject" id="subject" class="input-primary form__input" autocomplete="off" required>
                         </div>
                         <div class="form__group">
                             <label for="message" class="form__label body-es">Mensaje</label>
-                            <textarea type="text" name="message" id="message" class="input-primary form__input"
-                                autocomplete="off" required></textarea>
+                            <textarea type="text" name="message" id="message" class="input-primary form__input" autocomplete="off" required></textarea>
                         </div>
                         <div class="form__status-box">
                             <p class="body-es"></p>
                         </div>
-                        <button onclick="sendMail();" type="submit" name="submit"
-                            class="btn btn-primary d-flex align-center c-gap-1">contactame</button>
+                        <button onclick="sendMail();" type="submit" name="submit" class="btn btn-primary d-flex align-center c-gap-1">contactame</button>
 
                     </div>
                 </form>

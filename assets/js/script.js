@@ -15,7 +15,7 @@ const header = document.querySelector(".header"),
 /* ============== Header ============== */
 
 function ChangeHeaderBg() {
-    const scroll = window.scroll;
+    
     header.style.transition = "all var(--default-duration) ease"
     if (scrollY >50){
         header.style.background = "var(--body-bg)";
@@ -56,34 +56,6 @@ function skillComponent({ skillTitle, skillText, icon, tools }) {
 
 function renderSkills() {}
 // Education & Experience
-let educations = [
-    {
-        type: "education",
-        title: "Title",
-        position: "Position",
-        date: {
-            startDate: "Oct 10, 2014",
-            endDate: "2018",
-        },
-        desc: "Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam",
-    },
-    {
-        type: "experience",
-        title: "Title",
-        position: "Position",
-        date: {
-            startDate: "Mar 10, 2018",
-            endDate: "2021",
-        },
-        desc: "Lorem Ipsum Commodo Dolor Sit Amet, Consectetur Adipisicing Elit, Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua. Ut Enim Ad Minim Veniam",
-    },
-];
-
-function timelineComponent({ title, position, date, desc }) {
-    return ``;
-}
-
-function renderEducations() {}
 
 /* ============== Services Section ============== */
 
@@ -171,4 +143,29 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+} );
+
+//Modo Dark/Light manejador de tema
+
+// Inicializar el tema
+const theme = new Theme("light");
+theme.init();
+
+// Cambiar el icono de la luna/sol si quieres (opcional)
+function updateThemeIcon() {
+    const icon = colorThemeBtn.querySelector("i");
+    if (theme.currentTheme === "dark") {
+        icon.classList.remove("ri-moon-fill");
+        icon.classList.add("ri-sun-fill");
+    } else {
+        icon.classList.remove("ri-sun-fill");
+        icon.classList.add("ri-moon-fill");
+    }
+}
+theme.onToggle(updateThemeIcon);
+updateThemeIcon();
+
+// Evento para cambiar el tema al hacer clic en el botón
+colorThemeBtn.addEventListener("click", () => {
+    theme.toggleTheme();
 });
