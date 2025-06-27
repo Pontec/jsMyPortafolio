@@ -381,16 +381,18 @@ body {
     position: relative;
     /*min-height: var(--full-view-height);*/
     padding-block: var(--header-height);
-
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .skills__container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
     padding-top: calc(var(--padding-3));
     margin-left: auto;
     margin-right: auto;
-    flex-wrap: wrap;
-
 }
 
 .skills__card {
@@ -411,6 +413,13 @@ body {
     align-items: center;
     gap: 0.7rem;
 
+}
+
+@media (max-width: 768px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 }
 
 /* ============= END SKILLS SECTION ============= */
@@ -651,13 +660,21 @@ textarea.form__input {
 .footer__title,
 .footer__subtitle,
 .footer__social-link {
-    color: var(--white-100);
+    color: var(--text-dark);
 }
 
 .footer__copyRight {
     padding-bottom: var(--padding-1);
     text-align: center;
     color: var(--white-100);
+}
+
+.footer__social-link:hover {
+    color: var(--accent-color);
+}
+
+.body-sm {
+    color: var(--text-alt-1);
 }
 
 /* ============= END FOOTER ============= */
